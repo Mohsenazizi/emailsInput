@@ -7,10 +7,14 @@ there are a few options which are madatory and should be added set to use.<br/>
 
 the options should be passed as an oject to init method.<br/>
 
-# container:is the element which you want to add the emailsInput in.
-# position: is the place which you want to have the emailsInput in the valid value are : beforebegin,afterbegin, beforeend, afterend
-# showCountButtonContent:the text would be shown in to the show count button
-# addRandomButtonContent:the text would be shown into the add a test email button
+# container:
+is the element which you want to add the emailsInput in.
+# position:
+is the place which you want to have the emailsInput in the valid value are : beforebegin,afterbegin, beforeend, afterend
+# showCountButtonContent:
+the text would be shown in to the show count button
+# addRandomButtonContent:
+the text would be shown into the add a test email button<br/>
 ```
       emailsInput.init({
         container,
